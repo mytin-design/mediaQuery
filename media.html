@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Query</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="media.css">
+        <style>
+            .container {
+                width: 100%;
+                border: 10px dotted red;
+                background: #eee;
+            }
+
+
+            @media only screen and (max-width: 900px) {
+                .container {
+                    width: 20%;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            This is a text in a div to illustrate the functioning of the media query.
+        </div>
+    </body>
+</html>
